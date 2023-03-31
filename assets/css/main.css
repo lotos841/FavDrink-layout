@@ -1,0 +1,276 @@
+body{
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    
+    margin: 0;
+
+    font-size: 14px;
+    color: rgb(40, 40, 40);
+    line-height: 1.6;
+    
+    background-color: #ffffff;;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+p{
+    margin: 0,0 10px;
+}
+
+/* Container
+=================*/
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* Header
+=================*/
+
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+    align-items: center;
+}
+
+
+/* Nav
+==================*/
+
+ .nav{
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+ }
+
+ .nav__link{
+     margin-left: 50px;
+     color: rgb(255, 255, 255) ;
+     text-decoration: none;
+     transition: color .2s;
+ }
+
+ .nav__link:first-child{
+     margin: 0;
+ }
+
+ .nav__link:hover{
+    color: #ffb001;
+ }
+
+
+ /* Intro
+==================*/
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    height: 670px;
+    padding-top: 100px;
+    background: #ffb001
+    url("../images/introBg.png") center no-repeat;
+}
+
+.intro__inner{
+    max-width: 500px;
+    width: 100%;
+    margin-left: 25%;
+    
+}
+
+.intro__title{
+    margin-top: 40px;
+    padding: 20px 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 58px;
+    color: rgb(74, 0, 95);
+    text-shadow: 4px 4px 1px rgb(255, 255, 255);
+    line-height: 1;   
+}
+
+.intro__subtitle{
+
+    font-size: 28px;
+    color: rgb(255, 253, 245);
+}
+
+.intro__subtitle__discount{
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: rgb(74, 0, 95);
+    
+}
+
+ /* Button
+==================*/
+
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin:20px 0;
+
+    font-size:26px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s
+    linear;
+    
+}
+
+
+
+.btn--violet{
+    background-color: rgb(74, 0, 95);
+}
+
+.btn--violet:hover{
+    background-color: rgb(50, 7, 62);
+    color: #ffb001;
+}
+
+ /* Catalog
+==================*/
+
+.catalog{
+    display: flex;
+    margin: 30px 0;
+    flex-direction: column;
+    background: #ffffff;
+}
+
+.catalog__inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+
+}
+
+.catalog__title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 72px;
+    text-align: center;
+    color: #ffb001;
+    border-bottom: 5px solid #ffb001;
+    
+}
+
+.catalog__item{
+    width: 25%;
+    margin-top: 15px;
+    margin-bottom: 200px;
+    padding: 10px;
+    text-align: center;
+    transition: all .2s ease;
+}
+
+.catalog__item:hover {
+    scale: 1.05;
+}
+
+.catalog__img{
+    position: absolute;
+    display: block;
+    max-width: 100%;
+}
+
+.catalog__item__name{
+    position: relative;
+    top: 200px;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    margin: 5px;
+    
+}
+
+.special_offer img{
+    width: 100%;
+    
+}
+
+
+/* Footer
+=============*/
+
+.footer{
+    padding: 70px 0;
+    background-color: rgb(74, 0, 95);
+}
+
+.footer__inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__block{
+    width: 33.3333%;
+
+}
+
+.footer__title{
+    
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
+.footer__address{
+
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    color: #ffb001;
+}
+
+.contact__text{
+    padding-left: 15px;
+    font-size: 14px;
+    font-style: normal;
+    text-align: left;
+    color: #ffb001;
+}
+
+.social__icons{
+    text-align: center;
+    width: 33.3333%;
+}
+
+.social__icon{
+    height: 40px;
+    background: #ffaf0100;
+    border-radius: 15px;
+    padding: 7px 7px;
+    transition: all .3s;
+    
+}
+
+.social__icon:hover{
+    background: #ffaf01;
+}
+
+
