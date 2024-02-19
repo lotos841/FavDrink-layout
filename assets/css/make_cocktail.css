@@ -1,0 +1,112 @@
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.make_cocktail {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: rgb(3, 3, 3);
+}
+
+.container {
+}
+
+.make_cocktail_inner {
+}
+
+.make_cocktail_title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 72px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffb001;
+    border-bottom: 5px solid #ffb001;
+}
+
+.make_boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.box {
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    background-color: #ffaf01;
+}
+
+.cocktail_title {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+.cocktail_img {
+    max-width: 150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ingredients {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredients li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+.ingredients li:last-child {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.ingredients p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.ingredients a {
+    background-color: black;
+    padding: 5px 10px;
+}
+
+.tastes {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.taste {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+  accent-color: green;
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+}
+
+.buy {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(44, 171, 44);
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets//css/make_cocktail.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
@@ -41,67 +42,330 @@
     </div>
     <div class="catalog">
         <div class="container">
-            <div class="catalog__title" id="catalog">Catalog</div>
+            <div class="catalog__title" id="catalog">Каталог</div>
             <div class="catalog__inner">
                 <div class="catalog__item">
                     <div class="catalog__img">
                         <img src="../assets/images/icons/coctail.jpg" alt="">
                     </div>
-                    <a href="coctails.html" class="catalog__item__name btn btn--violet"  id="open_pop_up_cocktail">Cocktail</a>
+                    <a href="coctails.html" class="catalog__item__name btn btn--violet"  id="open_pop_up_cocktail">Коктейль</a>
                 </div>
 
                 <div class="catalog__item">
                     <div class="catalog__img">
                         <img src="../assets/images/icons/coffe.jpg" alt="">
                     </div>
-                    <a href="coffe.html" class="catalog__item__name btn btn--violet">Coffe</a>                  
+                    <a href="coffe.html" class="catalog__item__name btn btn--violet">Кофе</a>                  
                 </div>
 
                 <div class="catalog__item">
                     <div class="catalog__img">
                         <img src="../assets/images/icons/tea.jpg" alt="">
                     </div>
-                    <a href="tea.html" class="catalog__item__name btn btn--violet">Tea</a>
+                    <a href="tea.html" class="catalog__item__name btn btn--violet">Чай</a>
                 </div>
 
                 <div class="catalog__item">
                     <div class="catalog__img">
                         <img src="../assets/images/icons/for kids.jpg" alt="">
                     </div>
-                    <a href="forKids.html" class="catalog__item__name btn btn--violet">For kids</a>
+                    <a href="forKids.html" class="catalog__item__name btn btn--violet">Для детей</a>
                 </div>
                 
                 <div class="catalog__item">
                     <div class="catalog__img">
                         <img src="../assets/images/icons/milks.jpg" alt="">
                     </div>
-                    <a href="milk.html" class="catalog__item__name btn btn--violet">Milk</a>
+                    <a href="milk.html" class="catalog__item__name btn btn--violet">Молочное</a>
                 </div>
 
                 <div class="catalog__item">
                     <div class="catalog__img">
                         <img src="../assets/images/icons/soda.jpg" alt="">
                     </div>
-                    <a href="soda.html" class="catalog__item__name btn btn--violet">Soda</a>
+                    <a href="soda.html" class="catalog__item__name btn btn--violet">Газировка</a>
                 </div>
 
                 <div class="catalog__item">
                     <div class="catalog__img">
                         <img src="../assets/images/icons/milkshake.jpg" alt="">
                     </div>
-                    <a href="milkshake.html" class="catalog__item__name btn btn--violet">Milkshake</a>
+                    <a href="milkshake.html" class="catalog__item__name btn btn--violet">Милкшейк</a>
                 </div>
 
                 <div class="catalog__item">
                     <div class="catalog__img">
                         <img src="../assets/images/icons/food.jpg" alt="">
                     </div>
-                    <a href="food.html" class="catalog__item__name btn btn--violet">Food</a>
+                    <a href="food.html" class="catalog__item__name btn btn--violet">Перекус</a>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="make_cocktail">
+        <div class="container">
+            <div class="make_cocktail_inner">
+                <h2 class="make_cocktail_title">Создай сам!</h2>
+                <div class="make_boxes">
+                    <div class="box">
+                        <div class="cocktail_title">Махито б/а</div>
+                        <img src="../assets/images/make_cocktail/mahito.png" alt="" class="cocktail_img">
+                        <ul class="ingredients">
+                            <li>
+                                <p>Классика</p>
+                                <input type="radio" name="mahito" id="">
+                            </li>
+                            <li>
+                                <p>Клубника</p>
+                                <input type="radio" name="mahito" id="">
+                            </li>
+                            <li>
+                                <p>Мята</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <p>Лайм</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <p>Сахар</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <p>Сироп</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <p>Лед</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="buy" href="">Купить</a>
+                    </div>
+
+                    <div class="box">
+                        <div class="cocktail_title">Милкшейк</div>
+                        <img src="../assets/images/make_cocktail/milkshake.png" alt="" class="cocktail_img">
+                        <ul class="ingredients">
+                            <li>
+                                <p>Клубника</p>
+                                <input type="radio" name="milkshake" id="">
+                            </li>
+                            <li>
+                                <p>Малина</p>
+                                <input type="radio" name="milkshake" id="">
+                            </li>
+                            <li>
+                                <p>Вишня</p>
+                                <input type="radio" name="milkshake" id="">
+                            </li>
+                            <li>
+                                <p>Банан</p>
+                                <input type="radio" name="milkshake" id="">
+                            </li>
+                            <li>
+                                <p>Шоколад</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <p>Ваниль</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <p>Лед</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="buy" href="">Купить</a>
+                    </div>
+                    
+                    <div class="box">
+                        <div class="cocktail_title">Кулер</div>
+                        <img src="../assets/images/make_cocktail/cooler.png" alt="" class="cocktail_img">
+                        <ul class="ingredients">
+                            <li>
+                                <p>Ягодны</p>
+                                <input type="radio" name="cooler" id="">
+                            </li>
+                            <li>
+                                <p>Вишня</p>
+                                <input type="radio" name="cooler" id="">
+                            </li>
+                            <li>
+                                <p>Вишня</p>
+                                <input type="radio" name="cooler" id="">
+                            </li>
+                            <li>
+                                <p>Банан</p>
+                                <input type="radio" name="cooler" id="">
+                            </li>
+                            <li>
+                                <p>Шоколад</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <p>Ваниль</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <p>Лед</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="buy" href="">Купить</a>
+                    </div>
+
+                    <div class="box">
+                        <div class="cocktail_title">Лимонад</div>
+                        <img src="../assets/images/make_cocktail/limonade.png" alt="" class="cocktail_img">
+                        <ul class="ingredients">
+                            <li>
+                                <p>Клубника</p>
+                                <input type="radio" name="limonade" id="">
+                            </li>
+                            <li>
+                                <p>Апельсин</p>
+                                <input type="radio" name="limonade" id="">
+                            </li>
+                            <li>
+                                <p>Вишня</p>
+                                <input type="radio" name="limonade" id="">
+                            </li>
+                            <li>
+                                <p>Банан</p>
+                                <input type="radio" name="limonade" id="">
+                            </li>
+                            <li>
+                                <p>Сок лимона</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <p>Сахарный сироп</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <p>Лед</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="buy" href="">Купить</a>
+                    </div>
+
+                    <div class="box">
+                        <div class="cocktail_title">Чай</div>
+                        <img src="../assets/images/make_cocktail/tea.png" alt="" class="cocktail_img">
+                        <ul class="ingredients">
+                            <li>
+                                <p>Зеленый</p>
+                                <input type="radio" name="tea" id="">
+                            </li>
+                            <li>
+                                <p>Черный</p>
+                                <input type="radio" name="tea" id="">
+                            </li>
+                            <li>
+                                <p>Белый</p>
+                                <input type="radio" name="tea" id="">
+                            </li>
+                            <li>
+                                <p>Желтый</p>
+                                <input type="radio" name="tea" id="">
+                            </li>
+                            <li>
+                                <p>Сахар</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <p>Холодный</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <p>Лимон</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="buy" href="">Купить</a>
+                    </div>
+                    <div class="box">
+                        <div class="cocktail_title">Кофе</div>
+                        <img src="../assets/images/make_cocktail/coffe.png" alt="" class="cocktail_img">
+                        <ul class="ingredients">
+                            <li>
+                                <p>Латте</p>
+                                <input type="radio" name="tea" id="">
+                            </li>
+                            <li>
+                                <p>Капучино</p>
+                                <input type="radio" name="tea" id="">
+                            </li>
+                            <li>
+                                <p>Эспрессо</p>
+                                <input type="radio" name="tea" id="">
+                            </li>
+                            <li>
+                                <p>Американо</p>
+                                <input type="radio" name="tea" id="">
+                            </li>
+                            <li>
+                                <p>Сахар</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <p>Молоко</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                            <li>
+                                <p>Сливки</p>
+                                <div class="add_remove">
+                                    <input type="checkbox">
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="buy" href="">Купить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
    
     <footer class="footer">
         <div class="container">
@@ -110,11 +374,7 @@
                     <div class="footer__title"></div>
                     <div class="social__icons">
                         <a href=""><img src="../assets/images/logo(FavDrink).png" alt=""></a><br>
-                        <a href=""><img class="social__icon" src="../assets/images/social/640px-Instagram_icon.png" alt=""></a>
-                        <a href=""><img class="social__icon" src="../assets/images/social/59439.png" alt=""></a>
-                        <a href=""><img class="social__icon" src="../assets/images/social/reddit-logo.png" alt=""></a>
                         <a href=""><img class="social__icon" src="../assets/images/social/VK_Logo.png" alt=""></a>
-                        <a href=""><img class="social__icon" src="../assets/images/social/81609.png" alt=""></a>
                     </div>
                 </div>
 
@@ -139,4 +399,5 @@
         </div>
     </footer>
 </body>
+<script src="../sctripts/make_cocktail.js"></script>
 </html>
